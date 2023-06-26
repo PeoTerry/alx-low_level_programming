@@ -19,8 +19,8 @@ void puts2(char *str);
 
 void puts_half(char *str);
 
-void pring_array(int *a, int n);
+void print_arrays(int *a, int n);
 
-char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *str); 
 
-#endif 
+#endif  
