@@ -1,31 +1,32 @@
-+#ifdef MAIN_H
+#ifdef MAIN.H
 
-+#define MAIN_H
+#define MAIN.H
 
-+
+#include <stdio.h>
 
-+void reset_to_98(int *n);
+#include <unistd.h>
 
-+void swap_int(int *a, int *b);
+int _putchar(char c);
 
-+int _strlen(char *s);
+void reset_to_98(int *n);
 
-+void _puts(char *str);
+void swap_int(int *a, int *b);
 
-+void print_rev(char *s);
+int _strlen_int(char *s);
 
-+void rev_string(char *s);
+void _puts(char *str):
 
-+void puts2(char *str);
+void print_rev(char *s);
 
-+void puts_half(char *str);
+void rev_string(char *s);
 
-+void print_arrays(int *a, int n);
+void puts2(char *str);
 
-+char *_strcpy(char *dest, char *src);
+void puts_half(char *str);
 
-+int _putchar(char c);
+void print_array(int *a, int *n);
 
-+
+char *_strcpy(char *dest, char *src);
 
-+#endif
+#endif
+~                      
