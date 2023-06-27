@@ -1,13 +1,21 @@
-#include "main.h"
+#include <stdio.h>
+
+void swap_int(int *, int *);
 
 /**
- * reset_to_98 - update the value of n to 98
- * @n: input 
- * Return: n
- * */
-
-void reset_to_98(int *n)
-
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	*n = 98;
-} 
+	int a;
+	int b;
+
+	a = 98;
+	b = 42;
+	printf("%d, %d\n", a, b);
+	swap_int(&a, &b);
+	printf("%d, %d\n", a, b);
+	return (0);
+}
